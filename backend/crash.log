@@ -1,0 +1,68 @@
+﻿node : C:\Users\paul\.ge
+mini\antigravity\scratch
+\Aiappsy-ERP\backend\src
+\controllers\middlewares
+Controllers\createAuthMi
+ddleware\forgetPassword.
+js:56
+At line:1 char:1
++ node src/server.js 2>&
+1 | Out-File -Encoding u
+tf8 crash.log ; Get-Con 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~
+~
+    + CategoryInfo      
+        : NotSpecified  
+  : (C:\Users\paul\..   
+ ..tPassword.js:56:S    
+tring) [], RemoteEx    c
+eption
+    + FullyQualifiedErr 
+   orId : NativeComman  
+  dError
+ 
+  const aiappsy-erp_app_
+email = settings['aiapps
+y-erp_app_email'];
+        ^^^^^^^
+
+SyntaxError: Missing ini
+tializer in const declar
+ation
+    at wrapSafe (node:in
+ternal/modules/cjs/loade
+r:1638:18)
+    at Module._compile (
+node:internal/modules/cj
+s/loader:1680:20)
+    at Object..js (node:
+internal/modules/cjs/loa
+der:1839:10)
+    at Module.load (node
+:internal/modules/cjs/lo
+ader:1441:32)
+    at Function._load (n
+ode:internal/modules/cjs
+/loader:1263:12)
+    at TracingChannel.tr
+aceSync (node:diagnostic
+s_channel:322:14)
+    at wrapModuleLoad (n
+ode:internal/modules/cjs
+/loader:237:24)
+    at Module.require (n
+ode:internal/modules/cjs
+/loader:1463:12)
+    at require (node:int
+ernal/modules/helpers:14
+7:16)
+    at Object.<anonymous
+> (C:\Users\paul\.gemini
+\antigravity\scratch\Aia
+ppsy-ERP\backend\src\con
+trollers\middlewaresCont
+rollers\createAuthMiddle
+ware\index.js:4:24)
+
+Node.js v22.19.0

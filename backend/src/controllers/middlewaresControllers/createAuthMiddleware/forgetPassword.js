@@ -53,10 +53,10 @@ const forgetPassword = async (req, res, { userModel }) => {
   ).exec();
 
   const settings = useAppSettings();
-  const aiappsy-erp_app_email = settings['aiappsy-erp_app_email'];
-  const aiappsy-erp_base_url = settings['aiappsy-erp_base_url'];
+  const aiappsy_erp_app_email = settings['aiappsy-erp_app_email'];
+  const aiappsy_erp_base_url = settings['aiappsy-erp_base_url'];
 
-  const url = checkAndCorrectURL(aiappsy-erp_base_url);
+  const url = checkAndCorrectURL(aiappsy_erp_base_url);
 
   const link = url + '/resetpassword/' + user._id + '/' + resetToken;
 
@@ -65,7 +65,7 @@ const forgetPassword = async (req, res, { userModel }) => {
     name: user.name,
     link,
     subject: 'Reset your password | aiappsy-erp',
-    aiappsy-erp_app_email,
+    'aiappsy-erp_app_email': aiappsy_erp_app_email,
     type: 'passwordVerfication',
   });
 

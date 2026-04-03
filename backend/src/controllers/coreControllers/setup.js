@@ -64,11 +64,11 @@ const setup = async (req, res) => {
     const file = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
     const settingsToUpdate = {
-      aiappsy-erp_app_email: email,
-      aiappsy-erp_app_company_email: email,
-      aiappsy-erp_app_timezone: timezone,
-      aiappsy-erp_app_country: country,
-      aiappsy-erp_app_language: language || 'en_us',
+      'aiappsy-erp_app_email': email,
+      'aiappsy-erp_app_company_email': email,
+      'aiappsy-erp_app_timezone': timezone,
+      'aiappsy-erp_app_country': country,
+      'aiappsy-erp_app_language': language || 'en_us',
     };
 
     const newSettings = file.map((x) => {

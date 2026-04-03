@@ -51,6 +51,12 @@ export default function LoginForm() {
           {translate('Forgot password')}
         </a>
       </Form.Item>
+      
+      <div style={{ marginTop: '10px' }}>
+        <a className="login-form-forgot" href="/register">
+          {translate("Don't have an account? Sign up here")}
+        </a>
+      </div>
     </div>
   );
 }

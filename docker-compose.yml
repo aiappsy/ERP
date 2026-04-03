@@ -10,9 +10,11 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=8888
-      - DATABASE=${DATABASE_URL}
+      - DATABASE=mongodb://mongodb:27017/aiappsy-erp
       - GEMINI_API_KEY=${GEMINI_API_KEY}
       - RESEND_API_KEY=${RESEND_API_KEY}
+    depends_on:
+      - mongodb
     restart: unless-stopped
 
   frontend:
@@ -22,7 +24,18 @@ services:
     ports:
       - "3000:80"
     environment:
-      - VITE_BACKEND_URL=http://backend:8888
+      - VITE_BACKEND_URL=http://localhost:8888
     depends_on:
       - backend
     restart: unless-stopped
+
+  mongodb:
+    image: mongo:6.0
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    restart: unless-stopped
+
+volumes:
+  mongodb_data:

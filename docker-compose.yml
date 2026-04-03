@@ -11,7 +11,7 @@ services:
       - NODE_ENV=production
       - PORT=8888
       - DATABASE=${DATABASE_URL}
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
       - RESEND_API_KEY=${RESEND_API_KEY}
     restart: unless-stopped
 

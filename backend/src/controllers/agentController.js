@@ -2,7 +2,7 @@ const { GoogleGenAI } = require('@google/genai');
 
 // Initialize the SDk
 // Fallback if not configured yet
-const ai = new GoogleGenAI({ apiKey: process.env.OPENAI_API_KEY || '' }); 
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || '' }); 
 
 exports.handleAgentChat = async (req, res) => {
     try {

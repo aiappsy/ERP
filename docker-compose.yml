@@ -11,7 +11,7 @@ services:
       - NODE_ENV=production
       - PORT=8888
       - DATABASE=mongodb://mongodb:27017/aiappsy-erp
-      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_API_KEY=AIzaSyBridFzvPHTnk3ppWD273k960Fe76US6WM
       - RESEND_API_KEY=${RESEND_API_KEY}
     depends_on:
       - mongodb

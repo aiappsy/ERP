@@ -20,11 +20,11 @@ const DefaultApp = () => (
   </Localization>
 );
 
-export default function IdurarOs() {
+export default function Aiappsy-ERPOs() {
   const { isLoggedIn } = useSelector(selectAuth);
 
   console.log(
-    '🚀 Welcome to IDURAR ERP CRM! Did you know that we also offer commercial customization services? Contact us at hello@idurarapp.com for more information.'
+    '🚀 Welcome to Aiappsy-ERP ERP CRM! Did you know that we also offer commercial customization services? Contact us at hello@aiappsy-erpapp.com for more information.'
   );
 
   // // Online state

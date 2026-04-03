@@ -1,5 +1,5 @@
 {
-  "name": "idurar-erp-crm",
+  "name": "aiappsy-erp",
   "version": "4.1.0",
   "engines": {
     "npm": "10.2.4",
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.509.0",
+    "@google/genai": "^1.48.0",
     "bcryptjs": "^2.4.3",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
@@ -48,15 +49,15 @@
     "@": "src"
   },
   "main": "server.js",
-  "author": "IDURAR",
-  "email": "hello@idurarapp.com",
+  "author": "Aiappsy-ERP",
+  "email": "hello@aiappsy-erpapp.com",
   "license": "Fair-code License",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idurar/idurar-erp-crm/.git"
+    "url": "git+https://github.com/aiappsy-erp/aiappsy-erp-erp-crm/.git"
   },
   "bugs": {
-    "url": "https://github.com/idurar/idurar-erp-crm//issues"
+    "url": "https://github.com/aiappsy-erp/aiappsy-erp-erp-crm//issues"
   },
-  "homepage": "https://github.com/idurar/idurar-erp-crm/#readme"
+  "homepage": "https://github.com/aiappsy-erp/aiappsy-erp-erp-crm/#readme"
 }

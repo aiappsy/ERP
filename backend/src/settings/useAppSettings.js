@@ -1,7 +1,7 @@
 const useAppSettings = () => {
   let settings = {};
-  settings['idurar_app_email'] = 'noreply@idurarapp.com';
-  settings['idurar_base_url'] = 'https://cloud.idurarapp.com';
+  settings['aiappsy-erp_app_email'] = 'noreply@aiappsy-erpapp.com';
+  settings['aiappsy-erp_base_url'] = 'https://cloud.aiappsy-erpapp.com';
   return settings;
 };
 

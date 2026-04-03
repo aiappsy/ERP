@@ -1,0 +1,95 @@
+﻿
+> aiappsy-erp@4.1.0 build
+> vite build
+
+[36mvite v5.4.8 [32mbuilding for production...[36m[39m
+transforming...
+[32mÔ£ô[39m 2734 modules transformed.
+node.exe : [31mx[39
+m Build failed in 2.6
+6s
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" "C:
+\Program Files\nodejs
+/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpeci
+fied    : ([31mx[39
+m Buil    d failed in
+ 2.66s:S    tring) []
+, RemoteEx    ception
+    + FullyQualifiedE
+rr    orId : NativeCo
+mman    dError
+ 
+[31merror during bui
+ld:
+[31m[vite:asset] Cou
+ld not load C:\Users\
+paul\.gemini\antigrav
+ity\scratch\Aiappsy-E
+RP\frontend\src/style
+/images/aiappsy-erp-c
+rm-erp.svg (imported 
+by src/modules/AuthMo
+dule/SideContent.jsx)
+: ENOENT: no such fil
+e or directory, open 
+'C:\Users\paul\.gemin
+i\antigravity\scratch
+\Aiappsy-ERP\frontend
+\src\style\images\aia
+ppsy-erp-crm-erp.svg'
+[31m
+    at async open (no
+de:internal/fs/promis
+es:641:25)
+    at async Object.r
+eadFile (node:interna
+l/fs/promises:1245:14
+)
+    at async fileToBu
+iltUrl (file:///C:/Us
+ers/paul/.gemini/anti
+gravity/scratch/Aiapp
+sy-ERP/frontend/node_
+modules/vite/dist/nod
+e/chunks/dep-CDnG8rE7
+.js:20398:19)
+    at async Object.l
+oad (file:///C:/Users
+/paul/.gemini/antigra
+vity/scratch/Aiappsy-
+ERP/frontend/node_mod
+ules/vite/dist/node/c
+hunks/dep-CDnG8rE7.js
+:20298:17)
+    at async PluginDr
+iver.hookFirstAndGetP
+lugin (file:///C:/Use
+rs/paul/.gemini/antig
+ravity/scratch/Aiapps
+y-ERP/frontend/node_m
+odules/rollup/dist/es
+/shared/node-entry.js
+:19892:28)
+    at async file:///
+C:/Users/paul/.gemini
+/antigravity/scratch/
+Aiappsy-ERP/frontend/
+node_modules/rollup/d
+ist/es/shared/node-en
+try.js:19073:33
+    at async Queue.wo
+rk (file:///C:/Users/
+paul/.gemini/antigrav
+ity/scratch/Aiappsy-E
+RP/frontend/node_modu
+les/rollup/dist/es/sh
+ared/node-entry.js:20
+102:32)[39m

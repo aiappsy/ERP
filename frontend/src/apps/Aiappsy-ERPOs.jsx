@@ -20,7 +20,7 @@ const DefaultApp = () => (
   </Localization>
 );
 
-export default function Aiappsy-ERPOs() {
+export default function AiappsyErpOs() {
   const { isLoggedIn } = useSelector(selectAuth);
 
   console.log(
